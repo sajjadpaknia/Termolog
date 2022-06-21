@@ -1,0 +1,335 @@
+<!-- 
+Author : Sajjad Paknia
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/media-query.css">
+    <link rel="stylesheet" href="assets/css/mini-framwork.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <!-- start header tags -->
+        <header>
+            <section class="py-1 border-bottom d-flex justify-content-between align-items-center">
+                <nav>
+                    <ul class="d-flex color-gray fs-13px fw-400">
+                        <li><a href="#" class="pr-1 hover-primary transition">About</a></li>
+                        <li><a href="#" class="px-1 hover-primary transition">Forum</a></li>
+                        <li><a href="#" class="px-1 hover-primary transition">Buy now!</a></li>
+                        <li><a href="#" class="pl-1 hover-primary transition">Login / Join</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="d-flex fs-20px color-gray">
+                        <li><a href="#" class="pr-0-5 hover-primary transition"><i
+                                    class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#" class="px-0-5 hover-primary transition"><i
+                                    class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="#" class="px-0-5 hover-primary transition"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#" class="px-0-5 hover-primary transition"><i
+                                    class="fab fa-youtube-square"></i></a></li>
+                        <li><a href="#" class="pl-0-5 hover-primary transition"><i class="fab fa-vimeo"></i></a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="py-1 d-flex align-items-center justify-content-between secondary-header">
+                <a href="#" style="width: 130px; height:29px;"><img src="assets/photo/logo.svg" class="img-responsive"
+                        alt="logo"></a>
+                <nav class="navbar">
+                    <ul class="d-flex fw-500 navbar-menu transition">
+                        <li class="p-relative py-2 "><a href="#"
+                                class="pr-1 py-2 hover-primary transition active">Home</a>
+                            <ul
+                                class="shadow bg-white dropdown-menu py-1 left-0 transition pl-1-5 p-absolute fw-400 color-gray border-radius-0-5">
+                                <li><a href="#" class="py-1 hover-primary transition d-block active">Home Default</a>
+                                </li>
+                                <li><a href="#" class="py-1 hover-primary transition d-block">Magazine Classic</a></li>
+                                <li><a href="#" class="py-1 hover-primary transition d-block">Magazine</a></li>
+                                <li><a href="#" class="py-1 hover-primary transition d-block">Home Cards</a></li>
+                                <li><a href="#" class="py-1 hover-primary transition d-block">Blog Classic</a></li>
+                            </ul>
+                        </li>
+                        <li class="p-relative py-2"><a href="#" class="px-1 py-2 hover-primary transition">Pages</a>
+                            <ul
+                                class=" shadow bg-white left-0 dropdown-menu py-1 transition pl-1-5 p-absolute fw-400 color-gray border-radius-0-5">
+                                <li><a href="#" class="py-1 hover-primary d-block transition active">About</a></li>
+                                <li><a href="#" class="py-1 hover-primary d-block transition">Contact</a></li>
+                                <li class=" dropdown-item p-relative"><a href="#"
+                                        class="py-1 hover-primary w-100 d-block transition">Other Archives </a>
+                                    <ul style="left: 23.5rem;"
+                                        class="bg-white shadow p-absolute py-1 transition px-1-5 secondary-dropdown-menu fw-400 color-gray border-radius-0-5">
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5">Author Page</a>
+                                        </li>
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5">Category Page 1</a>
+                                        </li>
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5">Category Page 2</a>
+                                        </li>
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5"># Tag</a></li>
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5">Search Result</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="py-1 hover-primary d-block transition">Error 404</a></li>
+                                <li><a href="#" class="py-1 hover-primary d-block transition">Sign-in</a></li>
+                                <li><a href="#" class="py-1 hover-primary d-block transition">Sign-up</a></li>
+                                <li class="border-top"></li>
+                                <li class=" dropdown-item p-relative"><a href="#"
+                                        class="py-1 hover-primary d-block transition">Dropdown Levels</a>
+                                    <ul style="left: 23.5rem;"
+                                        class="bg-white shadow p-absolute py-1 transition px-1-5 secondary-dropdown-menu fw-400 color-gray border-radius-0-5">
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5">Dropdown item1</a>
+                                        </li>
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5">Dropdown item2</a>
+                                        </li>
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5">Dropdown item3</a>
+                                        </li>
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5">Dropdown item4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="border-top"></li>
+                                <li class=" dropdown-item-icon d-flex align-items-baseline fs-15px"><i
+                                        class="far fa-envelope-open pr-1"></i><a href="#"
+                                        class="py-1  hover-primary d-block transition">Support</a></li>
+                                <li class=" dropdown-item-icon d-flex align-items-baseline fs-15px"><i
+                                        class="far fa-folder-open pr-1"></i><a href="#"
+                                        class="py-1 hover-primary d-block transition">Documentation</a></li>
+                                <li class="border-top"></li>
+                                <li class=" d-flex align-items-baseline fs-15px dropdown-item-icon"><i
+                                        class="far fa-quote-left pr-1"></i><a href="#"
+                                        class="py-1 hover-primary d-block transition">RTL Demo</a></li>
+                                <li class=" dropdown-item-icon d-flex align-items-baseline fs-15px"><i
+                                        class="far fa-shopping-basket pr-1"></i><a href="#"
+                                        class="py-1 hover-primary d-block transition">Buy!</a></li>
+                            </ul>
+                        </li>
+                        <li class="py-2 p-relative"><a href="#" class="px-1 py-2 hover-primary transition ">Post</a>
+                            <ul
+                                class="shadow bg-white dropdown-menu py-1 left-0 transition pl-1-5 p-absolute fw-400 color-gray border-radius-0-5 ">
+                                <li><a href="#" class="py-1 hover-primary transition d-block active">Post Single
+                                        Magazine</a></li>
+                                <li class="dropdown-item p-relative"><a href="#"
+                                        class="py-1 hover-primary transition d-block">Post Single videos</a>
+                                    <ul style="left: 23.5rem;"
+                                        class="bg-white shadow p-absolute py-1 transition px-1-5 secondary-dropdown-menu fw-400 color-gray border-radius-0-5">
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5">Dropdown item1</a>
+                                        </li>
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5">Dropdown item2</a>
+                                        </li>
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5">Dropdown item3</a>
+                                        </li>
+                                        <li class="dropdown-item-icon"><a href="#"
+                                                class="py-1 hover-primary transition d-block pl-0-5">Dropdown item4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="py-1 hover-primary transition d-block">Post Single Minimal</a>
+                                </li>
+                                <li><a href="#" class="py-1 hover-primary transition d-block">Post Single Card</a></li>
+                            </ul>
+                        </li>
+                        <li class="py-2 p-relative"><a href="#" class="px-1 py-2 hover-primary transition">Lifestyle</a>
+                            <div class=" life-style border-radius-0-5 p-1 bg-white shadow p-absolute transition">
+                                <div class="d-flex life-style-row">
+                                    <div class="life-style-card transition p-relative col-4 p-1-5 border-radius-0-5">
+                                        <div>
+                                            <div class=" life-style-item shadow overflow-hidden border-radius-0-5">
+                                            </div>
+                                            <div>
+                                                <div class=" mt-1">
+                                                    <h2>7 common mistakes everyone makes while traveling.</h2>
+                                                </div>
+                                                <div class="mt-1 color-gray">
+                                                    <ul class=" d-flex fw-400 fs-14px">
+                                                        <li class=" pr-1">JOAN WALLACE</li>
+                                                        <li class=" pr-1">•</li>
+                                                        <li>FEB 18, 2021</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="link-card dropdown-item-icon"></a>
+                                    </div>
+                                    <div class="life-style-card transition p-relative col-4 p-1-5 border-radius-0-5">
+                                        <div>
+                                            <div class=" life-style-item2 shadow overflow-hidden border-radius-0-5">
+                                            </div>
+                                            <div>
+                                                <div class=" mt-1">
+                                                    <h2>12 worst types of business accounts you follow on Twitter</h2>
+                                                </div>
+                                                <div class="mt-1 color-gray">
+                                                    <ul class=" d-flex fw-400 fs-14px">
+                                                        <li class=" pr-1">JUDY NGUYEN</li>
+                                                        <li class=" pr-1">•</li>
+                                                        <li>SEP 07, 2021</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="link-card dropdown-item-icon"></a>
+                                    </div>
+                                    <div class="life-style-card transition p-relative col-4 p-1-5 border-radius-0-5">
+                                        <div>
+                                            <div class=" life-style-item3 shadow overflow-hidden border-radius-0-5">
+                                            </div>
+                                            <div>
+                                                <div class=" mt-1">
+                                                    <h2>Skills that you can learn from your company business </h2>
+                                                </div>
+                                                <div class="mt-1 color-gray">
+                                                    <ul class=" d-flex fw-400 fs-14px">
+                                                        <li class=" pr-1">LORI STEVENS</li>
+                                                        <li class=" pr-1">•</li>
+                                                        <li>JUN 03, 2021</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="link-card dropdown-item-icon"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="py-2"><a href="#" class="pl-1 py-2 hover-primary transition">Components</a></li>
+                    </ul>
+                </nav>
+
+                <div class="d-flex justify-content-between">
+                    <div><a href="#" class="btn color-white bg-danger bg-hover-danger transition">Subscribe!</a></div>
+                    <div><a href="#" class="py-0-5 transition hover-primary"><i
+                                class="far fa-search color-gray fs-22px"></i></a></div>
+                    <div><a href="#" class="py-0-5 transition hover-primary"><i
+                                class="far fa-bars color-gray fs-22px"></i></a></div>
+                </div>
+            </section>
+        </header>
+
+        <!-- start main tags -->
+        <main>
+            <!-- start section news tags -->
+            <section class="mt-2 news">
+                <div style="background-color: rgb(218, 228, 255);"
+                    class="p-1 border-radius-0-5 d-flex align-items-center justify-content-between news-item1">
+                    <div class="color-white bg-primary d-inline-block fs-13px btn">Trending<i
+                            class="far vertical-align-middle pl-0-6 fa-angle-double-right"></i></div>
+                    <div style="width: 80%;" class="news-item2 mr-auto ml-2 color-gray overflow-hidden">
+                        <h2><a href="#" class=" hover-primary transition" style="white-space: nowrap;">The most common
+                                business debate isn't as black and white as you might think.</a>
+                        </h2>
+                    </div>
+                    <div class="news-item3">
+                        <button class="rounded shadow mr-0-5 pointer bg-hover-primary hover-white transition"><i
+                                class="fal py-0-5 fs-20px px-1 fa-angle-left"></i></button>
+                        <button class="rounded shadow ml-0-5 pointer bg-hover-primary hover-white transition"><i
+                                class="fal py-0-5 fs-20px px-1 fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </section>
+            <!-- start section card-grid tags -->
+            <section style="min-height: 100px;" class=" w-100 card-grid mt-4">
+                <div class=" d-grid card-news">
+                    <div class="bg-danger border-radius-0-5 overflow-hidden card-news-item1 shadow p-relative p5">
+                        <div style="z-index: 95;" class="shadow p-absolute">
+                            <button class="text-align-center btn-s bg-warning color-white shadow"> Lifestyle</button>
+                            <div class="mt-1 color-white fw-600"><h1> Ten tell-tale signs you need to get a new startup.</h1></div>
+                            <div class="mt-1 color-white fw-300"><p>No visited raising gravity outward subject my cottage Mr be. Hold do at tore in park feet near my case. </p></div>
+                            <div class="color-white fw-400 info-author">
+                                <ul class="d-flex mt-2 align-items-center">
+                                    <li class="mr-1"></li>
+                                    <li class="pr-1">by <a href="#" class="underline hover-primary transition">Louis</a></li>
+                                    <li class="pr-1">•</li>
+                                    <li class="pr-1">Nov 15, 2021</li>
+                                    <li class="pr-1">•</li>
+                                    <li>5 min read</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-danger border-radius-0-5 card-news-item2 shadow p-relative overflow-hidden">
+                        <div style="z-index: 95;" class="shadow p-absolute">
+                            <button class="text-align-center btn-s bg-success color-white shadow"> Technology</button>
+                            <div class="mt-1 color-white fs-20px fw-600"><h1> Best Pinterest boards for learning about business.</h1></div>
+                            <div class="color-white fw-400 info-author">
+                                <ul class="d-flex mt-1 align-items-center">
+                                    <li class="pr-1">by <a href="#" class="underline hover-primary transition">Louis</a></li>
+                                    <li class="pr-1">•</li>
+                                    <li class="pr-1">Nov 15, 2021</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-danger border-radius-0-5 card-news-item3 shadow p-relative overflow-hidden">
+                                                <div style="z-index: 95;" class="shadow p-absolute">
+                            <button class="text-align-center btn-s bg-danger color-white shadow"> Business</button>
+                            <div class="mt-1 color-white fs-20px fw-600"><h1> Five intermediate guide to business.</h1></div>
+                            <div class="color-white fw-400 info-author">
+                                <ul class="d-flex mt-1 align-items-center">
+                                    <li class="pr-1">by <a href="#" class="underline hover-primary transition">Louis</a></li>
+                                    <li class="pr-1">•</li>
+                                    <li class="pr-1">Nov 15, 2021</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-danger border-radius-0-5 card-news-item4 shadow p-relative overflow-hidden">
+                                                <div style="z-index: 95;" class="shadow p-absolute">
+                            <button class="text-align-center btn-s bg-secondary color-white shadow"> Sport</button>
+                            <div class="mt-1 color-white fs-20px fw-600"><h1> 15 reasons to choose startup</h1></div>
+                            <div class="color-white fw-400 info-author">
+                                <ul class="d-flex mt-1 align-items-center">
+                                    <li class="pr-1">by <a href="#" class="underline hover-primary transition">Louis</a></li>
+                                    <li class="pr-1">•</li>
+                                    <li class="pr-1">Nov 15, 2021</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+        <footer class=" bg-dark py-3 mt-4 color-white w-100">
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.315);" class=" pb-3 mx-auto container d-flex align-items-center justify-content-between fw-300">
+                <div style="width: 190px;" > <a href="#"><img class="img-responsive" src="assets/photo/logo2.svg" alt="logo"></a></div>
+                <div style="max-width: 500px;" class="mx-1"><h3>The next-generation blog, news, and magazine theme for you to start sharing your stories today! This Bootstrap 5 based theme is ideal for all types of sites that deliver the news.</h3></div>
+                <div>
+                    <form action="" class=" d-flex fw-400">
+                        <input type="email" placeholder="Email address" class="outline p-1 border-radius-0-5">
+                        <input type="submit" value="Subscribe" class="p-1 border-radius-0-5 ml-1 bg-primary color-white bg-hover-primary transition">
+                    </form>
+                    <p class=" fs-13px mt-1">By subscribing you agree to our <a href="#" class=" underline hover-primary transition">Privacy Policy</a></p>
+                </div>
+            </div>
+            <div style="opacity: 0.5;" class=" container fw-300 mx-auto mt-3">©2021 Sajjad Paknia. All rights reserved</div>
+        </footer>
+</body>
+</html>
